@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WWU AGIC</title>
+    <style>
+        body {
+            background-color: #f6f6f6;
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            text-align: center;
+            font-size: 4rem;
+            color: #333;
+            margin-top: 3rem;
+        }
+        p {
+            text-align: center;
+            font-size: 2rem;
+            color: #555;
+            margin-top: 1rem;
+        }
+        /* add some animation */
+        h1:hover {
+            animation: shake 0.5s;
+            animation-iteration-count: 1;
+            cursor: pointer;
+        }
+        @keyframes shake {
+            0% { transform: translateX(0); }
+            10%, 90% { transform: translateX(-1rem); }
+            20%, 80% { transform: translateX(1rem); }
+            30%, 50%, 70% { transform: translateX(-2rem); }
+            40%, 60% { transform: translateX(2rem); }
+            100% { transform: translateX(0); }
+        }
+    </style>
+</head>
+<body>
+    <h1>I Wanna Cry</h1>
+    <p>AGIC is a club that meets at 4:00pm at WWU on Wednesday</p>
+    <p>Check out my <a href="github.html">GitHub projects</a>.</p>
+</body>
+</html>
